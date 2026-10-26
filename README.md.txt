@@ -1,0 +1,3 @@
+# EXERCICES PTHON Lundi 26 OCT 2026
+
+- Exo 1 à 10

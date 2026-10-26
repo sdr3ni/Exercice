@@ -1,0 +1,16 @@
+total_secondes = 4800
+
+# 1. Calcul des heures (il y a 3600 secondes dans 1 heure)
+heures = total_secondes // 3600
+
+# 2. On récupère les secondes restantes après avoir enlevé les heures
+reste = total_secondes % 3600
+
+# 3. Calcul des minutes avec le reste (il y a 60 secondes dans 1 minute)
+minutes = reste // 60
+
+# 4. Les secondes restantes après avoir enlevé les minutes
+secondes = reste % 60
+
+# 5. Affichage du résultat avec du texte (f-string)
+print(f"{heures}h {minutes}m {secondes}s")
